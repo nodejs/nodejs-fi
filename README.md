@@ -1,6 +1,6 @@
 # iojs-fi
 
-Suomen kieliset käännökset `io.js` ympäristölle ja ohjeille.
+Suomenkieliset käännökset `io.js` ympäristölle ja ohjeille.
 
 ## Sosiaalinen media
 
