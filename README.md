@@ -9,7 +9,7 @@ Suomen kieliset käännökset `io.js` ympäristölle ja ohjeille.
 
 ## Jäsenet
 
-* Juga Paazmaya, [http://twitter.com/paazmaya](@paazmaya)
+* Juga Paazmaya, [@paazmaya](http://twitter.com/paazmaya)
 
 ## Lisenssi
 
