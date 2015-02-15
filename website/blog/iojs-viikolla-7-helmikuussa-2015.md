@@ -21,7 +21,7 @@ Perjantaina 13 Helmikuuta, io.js saavutti 10&nbsp;000 tähden maalin GitHubissa.
 * *stream*: [Yksinkertaisempaa Streamien luontia][4]
 * *dns*: [lookup() sai boolean-tyyppisen lipun 'all', joka on oletusarvoisesti epätosi. Arvon ollessa tosi, metodi palauttaa taulukon kaikista onnistuneista nimihauista osoitteelle][5]
 * *assert*: Poistettu prototyypin jäsenten [vertailu deepEqual() -kutsuissa][6] synnytti deepStrictEqual() -metodin joka [peilaa deepEqual() -metodia][7], mutta vaatii tarkan yhdenvertaisuuden primitiivityypeille.
-* *tracing*: [Sisällytä LTTng (Linux Trace Toolkit Next Generation) käännettäessä --with-lttng lipulla. Trace points match those available for DTrace and ETW.][8]
+* *tracing*: [Sisällytä LTTng (Linux Trace Toolkit Next Generation) kääntämällä --with-lttng lipulla. Jäljitykset (_trace points_) ovat yhteneväiset DTracelle and ETW:lle tarjolla olevien kanssa.][8]
 * *dokumentaatio*: Paljon päivityksiä dokumentaatioon, tarkka lista löytyy commit-lokista. [uusi Errors-sivu][9] esittelee JavaScript Error-tyypin, V8:n erityispiirteet, ja io.js:n erityispiirteet.
 * *npm* päivitettiin versioon 2.5.1
 * *libuv* päivitettiin versioon 1.4.0, muutokset löytyvät projektin [Changelogista][10]
