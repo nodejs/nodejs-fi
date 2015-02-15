@@ -54,35 +54,35 @@ Lue [alkuperäinen juttu][13] Mediumista.
 
 ### Eri kieliyhteisöjä
 
-- [iojs-bn](https://github.com/iojs/iojs-bn) Bengali Community
-- [iojs-cn](https://github.com/iojs/iojs-cn) Chinese Community
-- [iojs-cs](https://github.com/iojs/iojs-cs) Czech Community
-- [iojs-da](https://github.com/iojs/iojs-da) Danish Community
-- [iojs-de](https://github.com/iojs/iojs-de) German Community
-- [iojs-el](https://github.com/iojs/iojs-el) Greek Community
-- [iojs-es](https://github.com/iojs/iojs-es) Spanish Community
-- [iojs-fa](https://github.com/iojs/iojs-fa) Persian Community
-- [iojs-fi](https://github.com/iojs/iojs-fi) Finnish Community
-- [iojs-fr](https://github.com/iojs/iojs-fr) French Community
-- [iojs-he](https://github.com/iojs/iojs-he) Hebrew Community
-- [iojs-hi](https://github.com/iojs/iojs-hi) Hindi Community
-- [iojs-hu](https://github.com/iojs/iojs-hu) Hungarian Community
-- [iojs-id](https://github.com/iojs/iojs-id) Indonesian Community
-- [iojs-it](https://github.com/iojs/iojs-it) Italian Community
-- [iojs-ja](https://github.com/iojs/iojs-ja) Japanese Community
-- [iojs-ka](https://github.com/iojs/iojs-ka) Georgian Community
-- [iojs-kr](https://github.com/iojs/iojs-kr) Korean Community
-- [iojs-mk](https://github.com/iojs/iojs-mk) Macedonian Community
-- [iojs-nl](https://github.com/iojs/iojs-nl) Dutch Community
-- [iojs-no](https://github.com/iojs/iojs-no) Norwegian Community
-- [iojs-pl](https://github.com/iojs/iojs-pl) Polish Community
-- [iojs-pt](https://github.com/iojs/iojs-pt) Portuguese Community
-- [iojs-ro](https://github.com/iojs/iojs-ro) Romanian Community
-- [iojs-ru](https://github.com/iojs/iojs-ru) Russian Community
-- [iojs-sv](https://github.com/iojs/iojs-sv) Swedish Community
-- [iojs-tr](https://github.com/iojs/iojs-tr) Turkish Community
-- [iojs-tw](https://github.com/iojs/iojs-tw) Taiwan Community
-- [iojs-uk](https://github.com/iojs/iojs-uk) Ukrainian Community
+- [iojs-bn](https://github.com/iojs/iojs-bn) Bengalilainen yhteisö
+- [iojs-cn](https://github.com/iojs/iojs-cn) Kiinalainen yhteisö
+- [iojs-cs](https://github.com/iojs/iojs-cs) Tšekkiläinen yhteisö
+- [iojs-da](https://github.com/iojs/iojs-da) Tanskalainen yhteisö
+- [iojs-de](https://github.com/iojs/iojs-de) Saksalainen yhteisö
+- [iojs-el](https://github.com/iojs/iojs-el) Kreikkalainen yhteisö
+- [iojs-es](https://github.com/iojs/iojs-es) Espanjalainen yhteisö
+- [iojs-fa](https://github.com/iojs/iojs-fa) Persialainen yhteisö
+- [iojs-fi](https://github.com/iojs/iojs-fi) Suomalainen yhteisö
+- [iojs-fr](https://github.com/iojs/iojs-fr) Ranskalainen yhteisö
+- [iojs-he](https://github.com/iojs/iojs-he) Heprealainen yhteisö
+- [iojs-hi](https://github.com/iojs/iojs-hi) Hindiläinen yhteisö
+- [iojs-hu](https://github.com/iojs/iojs-hu) Unkarilainen yhteisö
+- [iojs-id](https://github.com/iojs/iojs-id) Indonesialainen yhteisö
+- [iojs-it](https://github.com/iojs/iojs-it) Italialainen yhteisö
+- [iojs-ja](https://github.com/iojs/iojs-ja) Japanilainen yhteisö
+- [iojs-ka](https://github.com/iojs/iojs-ka) Georgialainen yhteisö
+- [iojs-kr](https://github.com/iojs/iojs-kr) Korealainen yhteisö
+- [iojs-mk](https://github.com/iojs/iojs-mk) Makedonialainen yhteisö
+- [iojs-nl](https://github.com/iojs/iojs-nl) Hollantilainen yhteisö
+- [iojs-no](https://github.com/iojs/iojs-no) Norjalainen yhteisö
+- [iojs-pl](https://github.com/iojs/iojs-pl) Puolalainen yhteisö
+- [iojs-pt](https://github.com/iojs/iojs-pt) Portugalilainen yhteisö
+- [iojs-ro](https://github.com/iojs/iojs-ro) Romanialainen yhteisö
+- [iojs-ru](https://github.com/iojs/iojs-ru) Venäläinen yhteisö
+- [iojs-sv](https://github.com/iojs/iojs-sv) Ruotsalainen yhteisö
+- [iojs-tr](https://github.com/iojs/iojs-tr) Turkkilainen yhteisö
+- [iojs-tw](https://github.com/iojs/iojs-tw) Taiwanilainen yhteisö
+- [iojs-uk](https://github.com/iojs/iojs-uk) Ukrainalainen yhteisö
 
 ## io.js ja node.js
 
