@@ -2,13 +2,13 @@
 
 ## Mikä on io.js?
 
-[io.js](https://github.com/iojs/io.js) on JavaScript alusta joka perustuu [Chrome's V8 runtime](http://code.google.com/p/v8/):en. Projekti alkoi haaraumana [Joyentin Node.js™](https://nodejs.org/)-projektista ja on yhteensopiva [npm](https://www.npmjs.org/) ekosysteemin kanssa.
+[io.js](https://github.com/iojs/io.js) on JavaScript alusta joka perustuu [Chrome's V8 runtime](http://code.google.com/p/v8/):en. Projekti alkoi haaraumana [Joyentin Node.js™](https://nodejs.org/)-projektista ja on yhteensopiva [npm](https://www.npmjs.org/)-ekosysteemin kanssa.
 
 ## Miksi?
 
-io.js tähtää nopeampiin ja ennustettavimpiin julkaisusykleihin. Tällä hetkellä se sisältää uusimmat kieli-, API- ja suorituskykymuutokset V8:sta, samalla päivittäen myös libuv:n ja muita kantakirjastoja.
+io.js tähtää nopeampiin ja ennustettavampiin julkaisusykleihin. Tällä hetkellä se sisältää uusimmat kieli-, API- ja suorituskykymuutokset V8:sta, samalla päivittäen myös libuv:n ja muita kantakirjastoja.
 
-Projektin tavoitteena on io.js:n jatkuva kehitys "[avoimen hallintomallin](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme)" alaisuudessa, toisin kuin yrityksen hallinnossa.
+Projektin tavoitteena on io.js:n jatkuva kehitys "[avoimen hallinnon](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme)" alaisuudessa, toisin kuin yrityksen hallinnossa.
 
 ## Versio 1.0.x?
 
@@ -18,13 +18,13 @@ Projektin [CHANGELOG](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md) v1.x
 
 ## Miten voin osallistua?
 
-Jokainen voi olla avuksi. io.js noudattaa määritettyä [toimintatapaa](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), ja työpanokset, julkaisut ja yhteistyö ovat [avoimen hallinnon](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) alaisia.
+Jokainen voi olla avuksi. io.js noudattaa määritettyä [käyttäytymiskoodia](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), ja työpanokset, julkaisut ja yhteistyö ovat [avoimen hallinnon](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) alaisia.
 
 Alkuun pääsemiseksi, avoimista asioista [on keskusteluita GitHubissa](https://github.com/iojs/io.js/issues), ja kuulemme mielellämme palautettasi.
 
-Keskusteluun osallistuminen on hyvä tapa tunnustella millä osa-alueille voit tarjota apuasi. Jos löydät jotain, missä koet pystyväsi olemaan avuksi, [tee pull request](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-contributions).
+Keskusteluun osallistuminen on hyvä tapa tunnustella millä osa-alueille voisit apuasi tarjota. Jos löydät jotain missä koet pystyväsi olemaan avuksi, [tee pull request](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-contributions).
 
-Lisäksi, [Nodebug.me](http://nodebug.me/) on hyvä tapa luokitella ja priorisoida (Triage) backlogissa olevia avoimia asioita.
+Lisäksi, [Nodebug.me](http://nodebug.me/) on hyvä tapa auttaa luokittelemalla ja priorisoimalla (_Triage_) backlogissa olevia avoimia asioita.
 
 ## Missä keskustelua käydään?
 
