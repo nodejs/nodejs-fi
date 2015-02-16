@@ -2,7 +2,7 @@
 
 Sovinnon tämänhetkinen tila
 
-Viikko sitte Scott Hammond, Joyentin TJ, kutsui io.js:n teknisen ohjausrymän yksityiseen tapaamiseen, missä hän ilmaisi aikomuksensa perustaa node.js säätiö, ja tahtonsa tuoda io.js:n takaisin node.js-projektin pariin.
+Viikko sitten Scott Hammond, Joyentin toimitusjohtaja, kutsui io.js:n teknisen ohjausrymän yksityiseen tapaamiseen, missä hän ilmaisi aikomuksensa perustaa node.js säätiö, ja tahtonsa tuoda io.js:n takaisin node.js-projektin pariin.
 
 Vain muutamassa kuukaudessa io.js on kasvanut 23 aktiiviseen ydinjäseneen, useaan työryhmään, 27 lokalisaatiotiimiin, ja onnistuneesti julkaissut laadukasta softaa ripeään tahtiin poikkeuksellisen yhteisön tuella. Kaikki tämä on saavutettu avoimen hallinnon avulla, joka on piristanyt yhteisön ja houkutellut mukaan enemmän avustajia kuin koskaan node.js-projektin historian aikana.
 
