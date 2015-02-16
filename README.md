@@ -11,6 +11,7 @@ Suomenkieliset käännökset `io.js` ympäristölle ja ohjeille.
 ## Jäsenet
 
 * Juga Paazmaya, [@paazmaya](http://twitter.com/paazmaya)
+* Niklas Lindgren [@nikcorg](http://twitter.com/nikcorg)
 
 ## Lisenssi
 
