@@ -14,3 +14,39 @@ io.js@1.8 (V8 4.1+) myötä nuo hankaluudet poistuvat. Kaikki harmonyn ominaisuu
 * **Koekäytössä olevat** ominaisuudet ovat lähes valmiita ominaisuuksia mitä ei vielä olev täysin testattuja tai päivitetty vastaamaan uusinta määrittelyä, eikä siksi määritellä V8-tiimin osalta vakaiksi (_stable_) (esim. voi olla olemassa joitain vielä tuntemattomia rajatapauksia). Tähän tilaan kuuluu luultavasti [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*) versiossa 3.26. Nämä ovat "käytä omalla vastuullasi" tyyppisiä ominaisuuksia, mitkä nyt vaativat käyttöönottoa varten ajonaikaisen lipun: `--es_staging` (tai sen synonyymin `--harmony`).
 * **Kehityksessä olevat** ominaisuudet on otettavissa käyttöön yksitellen kunkin omalla lipullaan (esim. `--harmony_arrow_functions`), joskin tämä ei ole suositeltavaa muuhun kuin koemielessä.
 
+## Mitkä ES6 ominaisuudet ovat io.js:ssä oletuksena käytössä (ilman ajonaikaisia lippuja)?
+
+*   Block scoping
+
+    *   [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+    *   [const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+
+    *   `function`-in-blocks
+
+    >As of v8 3.31.74.1, block-scoped declarations are [intentionally implemented with a non-compliant limitation to strict mode code](https://groups.google.com/forum/#!topic/v8-users/3UXNCkAU8Es). Developers should be aware that this will change as v8 continues towards ES6 specification compliance.
+
+*   Collections
+
+    *   [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
+    *   [WeakMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
+
+    *   [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+
+    *   [WeakSet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet)
+
+*   [Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
+
+*   [Binary and Octal literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Numeric_literals)
+
+*   [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+*   [New String methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla#Additions_to_the_String_object)
+
+*   [Symbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
+
+*   [Template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings)
+
+Yksityiskohtaisempi lista, mihin sisältyy myös vertailu muihin ajoympäristöihin, löytyy [compat-table](https://kangax.github.io/compat-table/es6/)-projektin sivulta.
+
