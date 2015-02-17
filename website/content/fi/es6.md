@@ -57,3 +57,13 @@ Yksityiskohtaisempi lista, mihin sisältyy myös vertailu muihin ajoympäristöi
 *   [Object literal extensions](https://github.com/lukehoban/es6features#enhanced-object-literals) (behind flag `--harmony_object_literals`)
 
 *   [`Symbol.toStringTag`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) (user-definable results for `Object.prototype.toString`, behind flag `--harmony_tostring`)
+
+## Mitkä ES6 ominaisuudet ovat työn alla?
+
+Uusia ominaisuuksia lisätään jatkuvast V8 engineen. Yleisesti ottaen voi olettaa niiden kaikkien päätyvän io.js:n tulevaisuudessa, joskin ajoitus on vielä tuntematon.
+
+Voit listata kaikki saatavilla olevat *kehitysasteen* ominaisuudet kustakin io.js:n julkaisusta hakemalla `--v8-options` tulosteesta. Huomioithan, että nämä ovat keskeneräisiä ja mahdollisesti rikkinäisiä V8:n ominaisuuksia, joten käytät niitä omalla vastuullasi:
+
+```sh
+iojs --v8-options | grep "in progress"
+```
