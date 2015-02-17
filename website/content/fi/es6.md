@@ -50,3 +50,10 @@ io.js@1.8 (V8 4.1+) myötä nuo hankaluudet poistuvat. Kaikki harmonyn ominaisuu
 
 Yksityiskohtaisempi lista, mihin sisältyy myös vertailu muihin ajoympäristöihin, löytyy [compat-table](https://kangax.github.io/compat-table/es6/)-projektin sivulta.
 
+## Mitä ES6 ominaisuudet ovat --es_staging lipun takana?
+
+*   [Classes](https://github.com/lukehoban/es6features#classes) (strict mode only, behind flag `--harmony_classes` which implies block scoping & object literal extensions)
+
+*   [Object literal extensions](https://github.com/lukehoban/es6features#enhanced-object-literals) (behind flag `--harmony_object_literals`)
+
+*   [`Symbol.toStringTag`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) (user-definable results for `Object.prototype.toString`, behind flag `--harmony_tostring`)
