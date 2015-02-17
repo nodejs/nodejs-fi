@@ -18,7 +18,7 @@ Projektin [CHANGELOG](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md) v1.x
 
 ## Miten voin osallistua?
 
-Jokainen voi olla avuksi. io.js noudattaa määritettyä [käyttäytymiskoodia](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), ja työpanokset, julkaisut ja yhteistyö ovat [avoimen hallinnon](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) alaisia.
+Jokainen voi olla avuksi. io.js noudattaa määritettyä [käyttäytymiskoodia](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), ja työpanokset, julkaisut ja yhteistyö ovat [avoimen hallintomallin](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) alaisia.
 
 Alkuun pääsemiseksi, avoimista asioista [on keskusteluita GitHubissa](https://github.com/iojs/io.js/issues), joista kuulemme mielellämme palautettasi.
 
