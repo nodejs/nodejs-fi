@@ -10,9 +10,9 @@ Node.js™@0.12.x (V8 3.28+) ajonaikainen `--harmony`-lippu aktivoi kaikki **val
 
 io.js@1.8 (V8 4.1+) myötä nuo hankaluudet poistuvat. Kaikki harmonyn ominaisuudet on nyt loogisesti jaoteltu kolmeen ryhmään, eli **valmiisiin**, **koekäyttövaiheen** ja **kehitysvaiheen** ominaisuuksiin:
 
-* Kaikki **valmiit** ominaisuudet, eli ne jotka V8 määrittelee vakaiksi (_stable_), kuten [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*), [templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings), [new string methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla#Additions_to_the_String_object) ja moni muu on **oletuksena käytössä io.js:ssä**, eikä siis vaadi minkäänlaisia ajonaikaisia lippuja
-* **Koekäyttövaiheen** ominaisuudet ovat lähes valmiita ominaisuuksia mitä ei vielä olev täysin testattuja tai päivitetty vastaamaan uusinta määrittelyä, eikä siksi määritellä V8-tiimin osalta vakaiksi (_stable_) (esim. voi olla olemassa joitain vielä tuntemattomia rajatapauksia). Tähän tilaan kuuluu luultavasti [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*) versiossa 3.26. Nämä ovat "käytä omalla vastuullasi" tyyppisiä ominaisuuksia, mitkä nyt vaativat käyttöönottoa varten ajonaikaisen lipun: `--es_staging` (tai sen synonyymin `--harmony`).
-* **Kehitysvaiheen** ominaisuudet on otettavissa käyttöön yksitellen kunkin omalla lipullaan (esim. `--harmony_arrow_functions`), joskin tämä ei ole suositeltavaa muuhun kuin koemielessä.
+* **Valmiit** ominaisuudet, eli ne jotka V8 määrittelee vakaiksi (_stable_), kuten [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*), [templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings), [new string methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla#Additions_to_the_String_object) ja moni muu on **oletuksena käytössä io.js:ssä**, eikä siis vaadi minkäänlaisia ajonaikaisia lippuja
+* **Koekäyttövaiheen** ominaisuudet ovat lähes valmiita ominaisuuksia mitkä ei vielä ole täysin testattuja tai päivitetty vastaamaan uusinta määrittelyä, eikä siksi pidetä V8-tiimin osalta vakaina (_stable_) (esim. voi olla olemassa joitain vielä tuntemattomia rajatapauksia). Tätä tilaa vastaa luultavasti [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*) versiossa 3.26. Nämä ovat "käytä omalla vastuullasi" tyyppisiä ominaisuuksia, mitkä nyt vaativat käyttöönottoa varten ajonaikaisen lipun: `--es_staging` (tai sen synonyymin `--harmony`).
+* **Kehitysvaiheen** ominaisuudet on otettavissa käyttöön yksitellen kunkin omalla lipullaan (esim. `--harmony_arrow_functions`), joskin se ei ole suositeltavaa kuin koemielessä.
 
 ## Mitkä ES6 ominaisuudet ovat io.js:ssä oletuksena käytössä (ilman ajonaikaisia lippuja)?
 
@@ -48,7 +48,7 @@ io.js@1.8 (V8 4.1+) myötä nuo hankaluudet poistuvat. Kaikki harmonyn ominaisuu
 
 *   [Template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings)
 
-Yksityiskohtaisempi lista, mihin sisältyy myös vertailu muihin ajoympäristöihin, löytyy [compat-table](https://kangax.github.io/compat-table/es6/)-projektin sivulta.
+Yksityiskohtaisempi lista, mihin sisältyy myös vertailu muihin ajoympäristöihin, löytyy [compat-table](https://kangax.github.io/compat-table/es6/) -projektin sivulta.
 
 ## Mitä ES6 ominaisuudet ovat --es_staging lipun takana?
 
@@ -60,9 +60,9 @@ Yksityiskohtaisempi lista, mihin sisältyy myös vertailu muihin ajoympäristöi
 
 ## Mitkä ES6 ominaisuudet ovat kehitysvaiheessa?
 
-Uusia ominaisuuksia lisätään jatkuvast V8 engineen. Yleisesti ottaen voi olettaa niiden kaikkien päätyvän io.js:n tulevaisuudessa, joskin ajoitus on vielä tuntematon.
+Uusia ominaisuuksia lisätään jatkuvasti V8-ajoympäristöön. Yleisesti voi olettaa niiden kaikkien päätyvän io.js:n tulevaisuudessa, joskin tarkka ajoitus on toistaiseksi vielä tuntematon.
 
-Voit listata kaikki saatavilla olevat *kehitysasteen* ominaisuudet kustakin io.js:n julkaisusta hakemalla `--v8-options` tulosteesta. Huomioithan, että nämä ovat keskeneräisiä ja mahdollisesti rikkinäisiä V8:n ominaisuuksia, joten käytät niitä omalla vastuullasi:
+Voit listata kaikki saatavilla olevat *kehitysvaiheen* ominaisuudet kustakin io.js:n julkaisusta hakemalla `--v8-options` tulosteesta. Huomioithan, että nämä ovat keskeneräisiä ja mahdollisesti rikkinäisiä V8:n ominaisuuksia, joten käytät niitä omalla vastuullasi:
 
 ```sh
 iojs --v8-options | grep "in progress"
