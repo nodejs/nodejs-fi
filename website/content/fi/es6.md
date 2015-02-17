@@ -67,3 +67,7 @@ Voit listata kaikki saatavilla olevat *kehitysasteen* ominaisuudet kustakin io.j
 ```sh
 iojs --v8-options | grep "in progress"
 ```
+
+## Hyödynnän infrastuktuurissani --harmony lippua. Tulisiko minun ottaa se pois käytöstä?
+
+Tällä hetkellä `--harmony`-lippu tuo io.js:ssä käyttöön vain **koekäyttövaiheen** ominaisuudet. Käytännössä se on siis `--es_staging`-lipun synonyymi. Kuten yllä on todetaan, nämä ovat valmiita ominaisuuksia mitä ei vielä pidetä vakaina (_stable_). Jos haluat pelata varman päälle, erityisesti tuotantoympäröissä, on syytä harkita tämän ajonaikaisen lipun käytöstä poistamista kunnes se on oletuksena käytössä V8:ssa ja sen myötä myös io.js:ssä. Jos kuitenkin pidät sen käytössä, varaudu siihen, että io.js:n päivitys voi aiheuttaa koodin rikkoutumista mikäli V8 alkaa seuraamaan standardeja tarkemmin.
