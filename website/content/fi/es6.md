@@ -48,7 +48,7 @@ io.js@1.8 (V8 4.1+) myötä nuo hankaluudet poistuvat. Kaikki harmonyn ominaisuu
 
 *   [Template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings)
 
-Yksityiskohtaisempi lista, mihin sisältyy myös vertailu muihin ajoympäristöihin, löytyy [compat-table](https://kangax.github.io/compat-table/es6/) -projektin sivulta.
+Yksityiskohtaisempi lista, mihin sisältyy myös vertailu muihin suoritusympäristöihin, löytyy [compat-table](https://kangax.github.io/compat-table/es6/) -projektin sivulta.
 
 ## Mitä ES6 ominaisuudet ovat --es_staging lipun takana?
 
@@ -60,7 +60,7 @@ Yksityiskohtaisempi lista, mihin sisältyy myös vertailu muihin ajoympäristöi
 
 ## Mitkä ES6 ominaisuudet ovat kehitysvaiheessa?
 
-Uusia ominaisuuksia lisätään jatkuvasti V8-ajoympäristöön. Yleisesti voi olettaa niiden kaikkien päätyvän io.js:n tulevaisuudessa, joskin tarkka ajoitus on toistaiseksi vielä tuntematon.
+Uusia ominaisuuksia lisätään jatkuvasti V8-suoritusympäristöön. Yleisesti voi olettaa niiden kaikkien päätyvän io.js:n tulevaisuudessa, joskin tarkka ajoitus on toistaiseksi vielä tuntematon.
 
 Voit listata kaikki saatavilla olevat *kehitysvaiheen* ominaisuudet kustakin io.js:n julkaisusta hakemalla `--v8-options` tulosteesta. Huomioithan, että nämä ovat keskeneräisiä ja mahdollisesti rikkinäisiä V8:n ominaisuuksia, joten käytät niitä omalla vastuullasi:
 
@@ -74,7 +74,7 @@ Tällä hetkellä `--harmony`-lippu tuo io.js:ssä käyttöön vain **koekäytt�
 
 ## Mistä löydän tiedon siitä mikä versio V8:sta missäkin io.js:n versiossa on käytössä?
 
-io.js tarjoaa yksinkertaisen tavan listata kaikki riippuvuudet versioineen jotka toimitetaan kunkin binäärin osana globaalin `process`-objektin kautta. V8-ajoympäristön ollessa kyseessä, seuraava komentorivikomento palauttaa sen version:
+io.js tarjoaa yksinkertaisen tavan listata kaikki riippuvuudet versioineen jotka toimitetaan kunkin binäärin osana globaalin `process`-objektin kautta. V8-suoritusympäristön ollessa kyseessä, seuraava komentorivikomento palauttaa sen version:
 
 ```sh
 iojs -p process.versions.v8
