@@ -3,6 +3,8 @@
 EN | FI
 ---|---
 agenda | asialista
+backlog | backlog
+code of conduct | käyttäytymiskoodi
 commit | commit
 community organizer | yhteisöjohtaja
 community | yhteisö
