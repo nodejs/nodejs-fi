@@ -12,9 +12,9 @@ Projektin tavoitteena on io.js:n jatkuva kehitys _[avoimen hallintamallin](https
 
 ## Versio 1.0.x?
 
-io.js siirtyi noudattamaan [Semver](http://semver.org/)-versiointia, ja muutokset Node.js™ 0.10 ja io.js 1.0.0 versioiden välillä olivat riittävän merkittäviä _major_ versionumeron päivittämiseksi.
+io.js siirtyi noudattamaan [Semver](http://semver.org/)-versiointia, ja muutokset Node.js™ 0.10 ja io.js 1.0.0 välillä olivat riittävän merkittäviä _major_-versionumeron päivittämiseksi.
 
-Projektin [CHANGELOG](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md) v1.x versioille sisältää [yhteenvedon muutoksista Node.js v0.10.35 ja io.js v1.0.x välillä](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100).
+Projektin [CHANGELOG](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md) v1.x-versioille sisältää [yhteenvedon muutoksista Node.js v0.10.35 ja io.js v1.0.x välillä](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100).
 
 ## Miten voin osallistua?
 
