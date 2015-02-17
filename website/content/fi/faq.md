@@ -2,13 +2,13 @@
 
 ## Mikä on io.js?
 
-[io.js](https://github.com/iojs/io.js) on JavaScript alusta joka perustuu [Chrome's V8 runtime](http://code.google.com/p/v8/):en. Projekti alkoi haaraumana [Joyentin Node.js™](https://nodejs.org/)-projektista ja on yhteensopiva [npm](https://www.npmjs.org/)-ekosysteemin kanssa.
+[io.js](https://github.com/iojs/io.js) on JavaScript alusta joka perustuu [Chrome's V8 runtime](http://code.google.com/p/v8/):en. Projekti alkoi haaraumana (_fork_) [Joyentin Node.js™](https://nodejs.org/)-projektista ja on yhteensopiva [npm](https://www.npmjs.org/)-ekosysteemin kanssa.
 
 ## Miksi?
 
 io.js tähtää nopeampaan ja ennustettavampaan julkaisusykliin. Nykytilassaan se sisältää uusimmat kieli-, API- ja suorituskykymuutokset V8:sta, samalla on päivitetty myös libuv ja muita kantakirjastoja.
 
-Projektin tavoitteena on io.js:n jatkuva kehitys _[avoimen hallintomallin](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme)_ alaisuudessa, erona yrityksen johdon alaisena olemiseen.
+Projektin tavoitteena on io.js:n jatkuva kehitys _[avoimen hallintamallin](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme)_ alaisuudessa, erona yrityksen johdon alaisena olemiseen.
 
 ## Versio 1.0.x?
 
@@ -18,7 +18,7 @@ Projektin [CHANGELOG](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md) v1.x
 
 ## Miten voin osallistua?
 
-Jokainen voi olla avuksi. io.js noudattaa määritettyä [käyttäytymiskoodia](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), ja työpanokset, julkaisut ja yhteistyö ovat [avoimen hallintomallin](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) alaisia.
+Jokainen voi olla avuksi. io.js noudattaa määritettyä [käyttäytymiskoodia](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), ja työpanokset, julkaisut ja yhteistyö ovat [avoimen hallintamallin](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) alaisia.
 
 Alkuun pääsemiseksi, avoimista asioista [on keskusteluita GitHubissa](https://github.com/iojs/io.js/issues), joista kuulemme mielellämme palautettasi.
 
