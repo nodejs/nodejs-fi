@@ -19,4 +19,4 @@ Lataa io.js:
 
 [Jokailtaiset (_nightly_) julkaisut](https://iojs.org/download/nightly/) koekäyttötarkoituksiin.
 
-[Usein kysytyt kysymykset](/faq.html)
+[Usein kysytyt kysymykset](/fi/faq.html)
