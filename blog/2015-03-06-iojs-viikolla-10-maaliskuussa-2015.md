@@ -14,7 +14,7 @@ Perjantaina 6 maaliskuuta [@rvagg][1] julkaisi io.js version [v1.5.0][2]. Täyde
 
 * **buffer**: Uusi Buffer#indexOf() metodi, mallinnettu [Array#indexOf()][4] metodin mukaan. Metodi hyväksyy merkkijonot, numerot tai Bufferin. Merkkijonot käsitellään UTF8-koodattuna. (Trevor Norris) [#561][5]
 * **fs**: options-objektin jäsenille ei enää tehdä hasOwnProperty()-tarkistusta fs-metodeissa, mahdollistaen objekteille protyypin jäsenien hyödyntämisen. (Jonathan Ong) [#635][6]
-* **tls**: PayPal raportoi todennäköisen muistivuodon TLS:ssä. Ilmeisesti syyllinen löytyy viimeaikaisista muutoksista **stream_wrap**iin. Alustava korjaus on jo olemassa ([#1078][7]), edistymistä vuodon lopulliseen tukkimiseen voi seurata issuess [#1075][8] (Fedor Indutny)
+* **tls**: PayPal raportoi todennäköisen muistivuodon TLS:ssä. Ilmeisesti syyllinen löytyy viimeaikaisista muutoksista **stream_wrap**iin. Alustava korjaus on jo olemassa ([#1078][7]), edistymistä vuodon lopulliseen tukkimiseen voi seurata issuessa [#1075][8] (Fedor Indutny)
 * **npm**: npm päivitettiin versioon 2.7.0. [npm:n muutoslokista][9] löytyy tarkempi syy miksi tämä on _semver-minor_, vaikka se olisi saattanut olla _semver-major_ -päivitys.
 * **TC**: Colin Ihrig ([@cjihrig][10]) luopui paikastaan teknisessä johtoryhmässä. Syyksi ilmoitti halunsa käyttää aikansa ohjelmointiin kokousten sijaan.
 
@@ -30,7 +30,7 @@ Perjantaina 6 maaliskuuta [@rvagg][1] julkaisi io.js version [v1.5.0][2]. Täyde
 
 * Mahdollinen TLS:n liittyvä muistivuoto, lisätiedot [#1075][11]
 * Windowsissa osaa testeistä ei edelleenkään läpäise. Korjaaminen on edelleen korkealla tärkeysjärjestyksessämme, lisätiedot [#1005][12]
-* _Surrogate pair_ REPLissä saattaa jäädyttää terminaalin [#690][13]
+* Sijaismerkkiparit (_Surrogate pair_) REPLissä saattaa jäädyttää terminaalin [#690][13]
 * io.js:n kääntäminen staattiseksi kirjastoksi epäonnistuu [#686][14]
 * process.send() ei ole synkroninen, kuten dokumentaatiossa lukee. Regressiovirhe päätyi mukaan versiossa 1.0.2. Lisätiedot [#760][15] ja korjaus [#774][16]
 
@@ -43,15 +43,15 @@ Perjantaina 6 maaliskuuta [@rvagg][1] julkaisi io.js version [v1.5.0][2]. Täyde
 
 ## Yhteisöpäivityksiä
 
-* Vietä yösi rauhassa tietäen, että io.js ja tuorein node.js julkaisu [_eivät ole alttiitta_][17] [FREAK][18]-hyökkäykselle. Onhan sinulle käytössä io.js tai tuorein node.js?
+* Vietä yösi rauhassa tietäen, että io.js ja tuorein node.js julkaisu [_eivät ole alttiit_][17] [FREAK][18]-hyökkäykselle. Onhan sinulle käytössä io.js tai tuorein node.js?
 * Walmart sponsoroi build-koneen Jenkins CI-järjestelmälle. [@iojs/build][19] tiimi työskentelee luodakseen SunOS-binäärit (kuten nodejs.org tarjoaa). Työn eteneminen odottaa V8-korjauksen ([iojs/io.js#1079][20]) liittämistä.
 * Haluaisimme kiittää seuraavia yrityksiä io.js-buildeihin liittyvistä lahjoituksista:
-* *Digital Ocean* (pääasiassa Linux), *Rackspace* (pääasiassa Window), **Voxer** (OS X ja FreeBSD), **NodeSource** (ARMv6 & ARMv7), **Linaro** (ARMv8), **Walmart** (SmartOS/Solaris)
-* io.js yhteisö on ahkeroinut kaiken sisällönsä kääntämisen parissa. Tällä hetkellä on yli 20 aktiivista kieliversiota julkaistuna [iojs.org][21]:ssa ja i18n yhteisösivustoille. Lisäksi, i18n linkit ([iojs/website#258][22]) lisättiin websivuston lopputunnisteeseen löydettävyyden helpottamiseksi. Puuttuuko sinun kielesi? [Auta meitä lisäämään se!][23]
+* **Digital Ocean** (pääasiassa Linux), *Rackspace* (pääasiassa Windows), **Voxer** (OS X ja FreeBSD), **NodeSource** (ARMv6 & ARMv7), **Linaro** (ARMv8), **Walmart** (SmartOS/Solaris)
+* io.js yhteisö on ahkeroinut kääntämisen parissa. Tällä hetkellä on yli 20 aktiivista kieliversiota julkaistuna [iojs.org][21]:ssa ja i18n-yhteisösivustoille. Lisäksi, i18n-linkit ([iojs/website#258][22]) lisättiin websivuston lopputunnisteeseen löydettävyyden helpottamiseksi. Puuttuuko sinun kielesi? [Auta meitä lisäämään se!][23]
 * käännöksistä puheen ollen, [roadmap-esitys][23] on päivitetty sisältämään linkit kieliversioihin
 * vaikuttaa siltä, että **PayPal** tekee koetta vertaillen [Kappa][25]a io.js vs node.js 0.12 vs node.js v0.10.
 * [**NodeSource**][26] tarjoaa [Linux-binäärit][27] sekä Ubuntu/Debianille, että RHEL/Fedoralle.
-* io.js [Docker-build][28] yksi tammi- ja helmikuussa perustetusta kolmestatoista uudesta [virallisesta Docker-repositorysta][29]
+* io.js [Docker-build][28] on yksi tammi- ja helmikuussa perustetusta kolmestatoista uudesta [virallisesta Docker-repositorysta][29]
 * NodeBots- ja IoT-innostuneet ilahtunevat kuullessaan, että juuri julkistettu [**Tessel2**][30] käyttää [io.js:ää][31].
 * [**@maxbeatty**][32] työstää uutta versiota [jsperf.com][33] backendistä. Alustana on io.js ja projekti on [avointa lähdekoodia][34]. Osallistuminen on tervetullutta.
 * Blogi: [@eranhammer][35] kirjoitti jutun [The Node Version Dilemma], mikä käsittelee eri node.js / io.js versioita ja tarjoaa ohjeita mitä ja milloin tulisi käyttää.
