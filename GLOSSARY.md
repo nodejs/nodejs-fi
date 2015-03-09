@@ -4,6 +4,7 @@ EN | FI
 ---|---
 agenda | asialista
 backlog | backlog
+backend | backend
 code of conduct | käyttäytymiskoodi
 commit | commit
 community organizer | yhteisöjohtaja
@@ -20,5 +21,5 @@ open governance | avoin hallinto
 policy | linjaus
 pull request | pull request
 repository | repository
-technical committee | tekninen johtoryhmä
+technical committee, TC | tekninen johtoryhmä
 work group | työryhmä
