@@ -54,7 +54,7 @@ Perjantaina 6 maaliskuuta [@rvagg][1] julkaisi io.js version [v1.5.0][2]. Täyde
 * io.js [Docker-build][28] on yksi tammi- ja helmikuussa perustetusta kolmestatoista uudesta [virallisesta Docker-repositorysta][29]
 * NodeBots- ja IoT-innostuneet ilahtunevat kuullessaan, että juuri julkistettu [**Tessel2**][30] käyttää [io.js:ää][31].
 * [**@maxbeatty**][32] työstää uutta versiota [jsperf.com][33] backendistä. Alustana on io.js ja projekti on [avointa lähdekoodia][34]. Osallistuminen on tervetullutta.
-* Blogi: [@eranhammer][35] kirjoitti jutun [The Node Version Dilemma], mikä käsittelee eri node.js / io.js versioita ja tarjoaa ohjeita mitä ja milloin tulisi käyttää.
+* Blogi: [@eranhammer][35] kirjoitti jutun [The Node Version Dilemma][36], mikä käsittelee eri node.js / io.js versioita ja tarjoaa ohjeita mitä ja milloin tulisi käyttää.
 
 [17]: https://strongloop.com/strongblog/are-node-and-io-js-affected-by-the-freak-attack-openssl-vulnerability/
 [18]: https://freakattack.com/
