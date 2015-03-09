@@ -21,5 +21,5 @@ open governance | avoin hallinto
 policy | linjaus
 pull request | pull request
 repository | repository
-technical committee (TC) | tekninen johtoryhmä
+technical committee, TC | tekninen johtoryhmä
 work group | työryhmä
