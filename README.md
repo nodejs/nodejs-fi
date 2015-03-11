@@ -21,9 +21,9 @@ iojs # kaikki käännökset jotka suoraan liittyvät iojs repon sisältöön
 iojs/doc # API dokumentaatio, koska se on io.js:n repossa
 ```
 
-Yhteinen käännössanasto löytyy [GLOSSARY.md](./GLOSSARY.md) tiedostosta.
+Yhteinen käännössanasto löytyy [GLOSSARY.md](./GLOSSARY.md) tiedostosta. Sanastoa täydennetään tarpeen mukaan.
 
-Kun käännöksiä halutaan viedään io.js organisaatiossa eteenpäin,
+Kun käännöksiä halutaan viedä io.js organisaatiossa eteenpäin,
 joku ylläpitäjistä tekee uuden Pull Requestin käännöksen kohteena olevaan
 repositoryyn kuten [iojs/website](https://github.com/iojs/website).
 
