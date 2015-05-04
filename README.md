@@ -33,6 +33,14 @@ repositoryyn kuten [iojs/website](https://github.com/iojs/website).
 * [Facebook-sivu](https://www.facebook.com/pages/iojs-suomeksi/383838695132192)
 * [Medium blogi-sivusto, johon lokalisoidut postaukset julkaistaan](https://medium.com/@iojs_fi)
 
+## Blogipostausten kääntäminen
+
+Alkuperäiset @iojs blogipostaukset käännetään kansioon [website/blog](./website/blog),
+josta ne julkaistaan Medium-tilille, osoitteeseen `medium.com/@iojs_fi`.
+Blogipostaukset kirjoitetaan Markdown-muodossa, tiedostonimien alkaessa alkuperäisen
+blogipostauksen julkaisupäivämäärällä jota seuraa käännetty otsikko,
+esimerkiksi `2015-02-10-`
+
 ## Jäsenet
 
 * Juga Paazmaya, [@paazmaya](http://twitter.com/paazmaya)
