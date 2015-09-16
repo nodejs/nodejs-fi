@@ -4,8 +4,8 @@ Suomenkieliset käännökset `io.js` ympäristölle ja ohjeille.
 
 ## Osallistuminen
 
-[iojs/iojs-fi](https://github.com/iojs/iojs-fi) GitHub repositoryä ylläpitää
-kaikki joilla on muutosoikeudet projektin repositoryyn.
+[nodejs/iojs-fi](https://github.com/nodejs/iojs-fi) GitHub repositoriä ylläpitävät
+kaikki joille on annetu muutosoikeudet projektin repositoriin.
 
 Muutokset projektin sisältöön kuten uudet käännökset tai muokkaukset
 toimitetaan Pull Requesteilla. On hyvien tapojen mukaista ettei Pull Requestin
@@ -16,7 +16,7 @@ Projektin hakemistorakenne on `<REPO_TAI_KONTEKSTI>/<REPON_RAKENNE>`, esim:
 
 ```bash
 blog/ # kaikki blogiartikkelit esim. 2015-02-10-otsikko.md
-website/content/fi # iojs/website repossa samanlaisessa rakenteessa
+website/content/fi # nodejs/website repossa samanlaisessa rakenteessa
 iojs # kaikki käännökset jotka suoraan liittyvät iojs repon sisältöön
 iojs/doc # API dokumentaatio, koska se on io.js:n repossa
 ```
@@ -25,7 +25,7 @@ Yhteinen käännössanasto löytyy [GLOSSARY.md](./GLOSSARY.md) tiedostosta. San
 
 Kun käännöksiä halutaan viedä io.js organisaatiossa eteenpäin,
 joku ylläpitäjistä tekee uuden Pull Requestin käännöksen kohteena olevaan
-repositoryyn kuten [iojs/website](https://github.com/iojs/website).
+repositoryyn kuten [nodejs/website](https://github.com/nodejs/website).
 
 ## Sosiaalinen media
 
